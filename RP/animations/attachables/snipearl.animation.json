@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.snipearl.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [186.63688, 58.96152, -38.31485],
+					"position": [1.23995, 14.86234, 1.31604]
+				}
+			}
+		},
+		"animation.snipearl.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [85, 0, 0],
+					"position": [0, 15.79847, -14.818]
+				}
+			}
+		}
+	}
+}

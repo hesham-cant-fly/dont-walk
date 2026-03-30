@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nugget_gun.third_person_idel": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [87.5, 0, 0],
+					"position": [0, 21.50608, -8.24574]
+				}
+			}
+		},
+		"animation.nugget_gun.first_person_idel": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [81.71113, 61.30664, -52.86021],
+					"position": [0.9023, 23.98821, -4.21329]
+				}
+			}
+		}
+	}
+}

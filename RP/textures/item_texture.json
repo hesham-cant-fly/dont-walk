@@ -2,6 +2,9 @@
     "resource_pack_name": "test",
     "texture_name": "atlas.items",
     "texture_data": {
+		"haste_snipearl": {
+			"textures": "textures/items/tools/snipearl"
+		},
         "haste_magic_mirror": {
             "textures": "textures/items/magic_mirror"
         },

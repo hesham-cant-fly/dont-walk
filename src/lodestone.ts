@@ -1,10 +1,8 @@
 import {
     DimensionLocation,
     EntityEquippableComponent,
-    EntityInventoryComponent,
     EquipmentSlot,
     ItemStack,
-    Player,
     world,
 } from "@minecraft/server";
 import { toVector } from "./utils";
@@ -23,8 +21,8 @@ function parseFromLores(item: ItemStack): DimensionLocation {
     return result;
 }
 
-world.afterEvents.itemUseOn.subscribe(({ block, source, itemStack: item }) => {
-    if (item.typeId !== "minecraft:lodestone_compass") return;
+world.afterEvents.itemStopUseOn.subscribe(({ block, source, itemStack: item }) => {
+    if (item?.typeId !== "minecraft:lodestone_compass") return;
     if (block.typeId === "minecraft:lodestone") {
         const equippableComponent = source.getComponent(
             EntityEquippableComponent.componentId
